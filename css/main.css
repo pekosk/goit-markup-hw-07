@@ -185,6 +185,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-check {
+  bottom: 120px;
+  left: 90px;
+}
+
 .modal-check:checked + .checkbox-label::before {
   border-color: transparent;
   background-color: var(--accent-colour);
