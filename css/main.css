@@ -43,6 +43,14 @@ body {
 .link {
   color: var(--primary-text-color);
   text-decoration: none;
+}
+
+.link-anim:hover,
+.link-anim:focus {
+  color: var(--accent-colour);
+}
+
+.link-anim {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -260,6 +268,25 @@ body {
 .modal-form-submit:hover,
 .modal-form-submit:focus {
   background-color: var(--accent-secondary-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.accent {
+  color: var(--accent-colour);
 }
 
 .title {

@@ -9,31 +9,6 @@
 /* Белый цвет #FFFFFF */
 /* Чёрный цвет #000000 */
 
-.thumb {
-  position: relative;
-  overflow: hidden;
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-
-  margin-top: 0;
-  margin-bottom: 50px;
-}
-
-.accent {
-  color: var(--accent-colour);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--accent-colour);
-}
-
 /* ======TEAM====== */
 
 /* ======TEAM END====== */
