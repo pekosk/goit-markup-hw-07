@@ -181,3 +181,28 @@
   color: var(--primary-white-color);
   background-color: var(--accent-secondary-color);
 }
+
+.social-links-icons.footer-icons {
+  fill: var(--primary-white-color);
+}
+
+.footer-social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-colour);
+}
