@@ -377,10 +377,10 @@
   color: var(--secondary-text-color);
 
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 0.85;
   letter-spacing: 0.03em;
 
   margin-top: 20px;
@@ -416,6 +416,10 @@
   opacity: 0;
   
   transform: translateX(-50%);
+}
+
+.modal-form-link {
+  color: var(--accent-colour);
 }
 
 .modal-form-submit {
