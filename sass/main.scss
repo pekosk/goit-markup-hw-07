@@ -5,7 +5,10 @@
 @import './base/container';
 
 // COMPONENTS
-
+@import './components/modal/modal-window';
+@import './components/modal/modal-forms';
+@import './components/modal/modal-buttons';
+@import './components/section-titles';
 
 // LAYOUT
 @import './layout/header';
